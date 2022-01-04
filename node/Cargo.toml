@@ -56,6 +56,7 @@ frame-benchmarking = { git = "https://github.com/paritytech/substrate", package 
 frame-benchmarking-cli = { git = "https://github.com/paritytech/substrate", package = "frame-benchmarking-cli" }
 
 contracts-node-runtime = { path = "../runtime" }
+hex = "0.4.3"
 
 [build-dependencies]
 substrate-build-script-utils = { git = "https://github.com/paritytech/substrate", package = "substrate-build-script-utils" }

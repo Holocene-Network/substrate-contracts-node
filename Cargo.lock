@@ -791,6 +791,7 @@ dependencies = [
  "contracts-node-runtime",
  "frame-benchmarking",
  "frame-benchmarking-cli",
+ "hex",
  "jsonrpc-core",
  "pallet-contracts-rpc",
  "pallet-transaction-payment-rpc",
