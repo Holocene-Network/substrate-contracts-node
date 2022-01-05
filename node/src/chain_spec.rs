@@ -64,9 +64,9 @@ pub fn development_config() -> Result<ChainSpec, String> {
 
 	Ok(ChainSpec::from_genesis(
 		// Name
-		"Development",
+		"Holocene Development",
 		// ID
-		"dev",
+		"holocene_devnet",
 		ChainType::Development,
 		move || {
 			let mut prefunded_accounts = vec![
@@ -116,9 +116,9 @@ pub fn local_testnet_config() -> Result<ChainSpec, String> {
 
 	Ok(ChainSpec::from_genesis(
 		// Name
-		"Local Testnet",
+		"Holocene Testnet",
 		// ID
-		"local_testnet",
+		"holocene_testnet",
 		ChainType::Local,
 		move || {
 			let mut prefunded_accounts = vec![
